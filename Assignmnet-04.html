@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-04</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lobster&display=swap');
+
+        .container {
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+            padding: 10px;
+            font-family: "kanit";
+            box-shadow: 2px 2px black;
+
+        }
+
+        .box {
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            text-align: center;
+            box-shadow: 2px 2px rgb(104, 98, 98);
+            background-color: red;
+            color: white;
+        }
+
+        li {
+            text-align: left;
+        }
+
+        .box form {
+            text-align: center;
+
+        }
+
+        .box input {
+            border: 1px solid rgb(241, 233, 233);
+            border-radius: 50px;
+            box-shadow: 2px 1px rgb(141, 135, 135);
+            text-align: center;
+            color: whitesmoke;
+            background-color: black;
+            width: 120px;
+            height: 25px;
+
+        }
+
+        button {
+            border: 2px solid rgb(110, 107, 107);
+            background-color: rgb(11, 11, 11);
+            border-radius: 50px;
+            box-shadow: 2px 2px gray;
+            padding: 5px;
+        }
+
+        button>a {
+            color: white;
+            text-decoration: solid;
+        }
+
+        button:hover {
+            background-color: rgba(255, 0, 0, 0.871);
+            border: 2px solid white;
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" style="background-color: blanchedalmond;">
+
+        <!-- BOX-01 -->
+        <div class="box" id="box-1">
+            <h1>Free Plan</h1>
+            <p>for Personal</p>
+            <h1>0$</h1>
+            <ul>
+                <li>1 user</li>
+                <li>4 Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL</li>
+            </ul>
+            <button><a href="sub-1.html">Subscribe now</a></button>
+
+        </div>
+
+        <!-- BOX-02 -->
+        <div class="box" id="box-2" >
+            <h1>Basic Plan</h1>
+            <p>for Small Business</p>
+            <h1>29$</h1>
+            <ul>
+                <li>4 users</li>
+                <li>10 Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL</li>
+            </ul>
+            <button><a href="sub-2.html">Subscribe now</a></button>
+        </div>
+
+        <!-- BOX-03 -->
+        <div class="box" id="box-3">
+            <h1>Pro Plan</h1>
+            <p>for Enterprise</p>
+            <h1>49$</h1>
+            <ul>
+                <li>unlimited user</li>
+                <li>unlimited Web mails</li>
+                <li>Responsive Website</li>
+                <li>Free SSL</li>
+            </ul>
+            <button><a href="sub-3.html">Subscribe now</a></button>
+        </div>
+
+    </div>
+</body>
+
+</html>
