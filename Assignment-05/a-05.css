@@ -1,0 +1,121 @@
+*{box-sizing: border-box;}
+.container{
+    display: flex;
+    border: 2px solid black;
+
+}
+.box-01{
+    border: 1px solid black;
+    margin: 2px;
+    width: 70vw;
+    
+}
+
+/* 01-NAVBAR */
+.navbar{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ul>li,ul>li>a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 2px 5px 2px 5px;
+    border-radius: 10px;
+}
+.nav-1,.nav-2{
+    /* border: 1px dotted black; */
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a>button:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid black;
+}
+
+/*12- main title*/
+.main-title{
+    /* border: 1px dotted rgb(18, 218, 58); */
+    margin: 2px 20px;
+    padding: 10px;
+}
+
+/* 13- menu-bar */
+.menu-bar{
+    margin: 20px;
+    padding: 10px;
+}
+.bt{
+    background-color: white;
+    border: 1px solid rgb(101, 99, 99);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    padding: auto;
+    color:black
+}
+.bt>a{
+    text-decoration: none;
+    color: black;
+
+}
+.bt:hover{
+    background-color: rgb(139, 139, 224);
+    color: white;
+}
+
+/* 14 form */
+.part-04{
+    align-items: center;
+}
+/* 141 box-one */
+.box-14{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: beige; 
+    margin: 20px; 
+    padding: 10px;
+
+}
+/* 142 */
+.p{
+    border: 1px solid black; 
+    text-align: center; 
+    background-color: white;
+}
+/* 143  */
+.search-bt{
+    width:67vw;
+    height: 40px;
+    background-color: rgb(26, 219, 26);
+    margin: 10px 20px;
+    padding: 5px;
+    text-align: center;
+}
+.search-bt>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+/* 02 box-2 */
+.box-02{
+display: inline-block;
+margin: 1px;
+padding: 1px;
+align-self: center;
+}
+.box-02>img{
+    width: 420px;
+    height: 350px;
+}
